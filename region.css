@@ -1,0 +1,119 @@
+p {
+    color: #C9A14C;
+}
+
+body {
+    max-width: 1900px;
+    height: 100%;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+}
+.background {
+    background-color: #0A1428;
+    background-size: cover;
+}
+svg {
+    color: whitesmoke;
+    max-width: 100px;
+    min-width: 30px;
+    max-height: 100px;
+}
+.champImage {
+  transform: scale(0.8);
+  border-radius: 15px;
+}
+
+.titre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.titreImage {
+  transform: scale(0.2);
+}
+
+.regionBox {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+      margin-bottom: 30px;
+}
+
+.boxIconeRegion {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2%;
+}
+
+.regionBoxUnder {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.regionBoxUnderUp {
+  margin-left: 13%;
+  margin-right: 13%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.regionBoxUnderDown {
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.regionIconeBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease;
+  width: 144px;
+  margin-bottom: 21px;
+}
+.regionIconeBox:hover {
+  transform: scale(1.10); /* grossissement léger au hover */
+}
+
+
+.regionText {
+  margin: 15px;
+}
+
+.regionBoxRole {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.regionIcone {
+  max-width: 80px;
+}
+
+.roleText {
+  width: 48px;
+  height: 57px;
+  margin-bottom: 30px;
+}
+
+.boxRole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 268px;
+  flex-wrap: wrap;
+  border: solid #C9A14C;
+  border-radius: 15px;
+  max-height: 450px;
+}
+.boxRoleTaille {
+  width: 255px;
+}
